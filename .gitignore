@@ -1,6 +1,5 @@
 # Scala and sbt
 target/
-project/target
 *.iws
 *.ipr
 .idea/
