@@ -12,7 +12,7 @@ addSbtPlugin("com.orrsella" % "sbt-stats" % "1.0.7")
 
 // WartRemover - static code analysis: https://github.com/puffnfresh/wartremover
 // all actions trigger analysis
-addSbtPlugin("org.wartremover" % "sbt-wartremover" % "3.1.3")
+addSbtPlugin("org.wartremover" % "sbt-wartremover" % "3.4.0")
 
 // PMD:CPD - find duplications: https://github.com/sbt/sbt-cpd
 // sbt cpd
@@ -21,10 +21,12 @@ addSbtPlugin("org.wartremover" % "sbt-wartremover" % "3.1.3")
 // Scoverage - code coverage: https://github.com/scoverage/sbt-scoverage)
 // sbt coverage test
 // sbt coverageReport
-addSbtPlugin("org.scoverage" % "sbt-scoverage" % "2.0.8")
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "2.3.1")
 
 // sbt dependencyUpdates
 addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.6.4")
 
 // sbt scalafmtAll
-addSbtPlugin("org.scalameta" % "sbt-scalafmt"  % "2.5.0")
+addSbtPlugin("org.scalameta"  % "sbt-scalafmt"           % "2.5.2")
+
+// addSbtPlugin("org.typelevel"  % "sbt-tpolecat"           % "0.5.2")
